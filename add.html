@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uploadaj salic</title>
+  <link rel="stylesheet" href="Styles\style.css" />
+</head>
+
+<body>
+  <header>
+    <img class="logo-img" src="Images/form.png" alt="logo">
+    
+  <nav class=myNav>
+    <a href="index.html"><button class="nav-btn">Nađi Salic</button></a>
+    <a href="add.html"><button class="nav-btn">Uploadaj Salic</button></a>
+    </nav>
+    
+  </header>
+  
+ <h1>Uploadaj salic</h1>
+ 
+ <form action="" method="get" accept-charset="utf-8">
+   <p>Iz kojeg predmeta je salic?</p>
+   <input type="text" name="predmet-input" id="predmet-input" value="" /><br>
+   <p>Koje gradivo obuhvaca?</p>
+   <input type="text" name="gradivo" id="gradivo" value="" /><br>
+   <p>Stavi sliku:</p>
+   <input class="salici-input-file" type="file" name="salic-img" id="salic-img" accept="image/*" value="nađi sliku salica" /><br/>
+   <input type="submit" name="submit-salic" id="submit-salic" value="Upload" />
+ </form>
+ 
+ <img class="salic-papir-img" src="Images/salic-papir.jpeg" alt="salic-img" />
+ 
+</body>
+
+</html>

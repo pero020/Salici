@@ -1,0 +1,59 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  background-color: #f5eee6;
+  margin: 20px;
+  text-align: center
+}
+
+hr {
+  border: 0;
+  border-top: dotted 7px;
+  border-color: gray;
+  width: 50px;
+}
+
+.myNav {
+  text-align: center;
+  border-bottom: 2px solid;
+  padding-bottom: 8px;
+}
+
+input[type=text] {
+  background-color: #ffeee6;
+}
+
+input[type=submit] {
+  margin: 10px;
+}
+
+.nav-btn {
+  background-color: #f3d7ca;
+  padding: 4px;
+  border-radius: 25%;
+  margin: 0px 5px;
+}
+
+.salic-ruka-img {
+  margin-top: 25px;
+  width: min(75%, 720px);
+  border-radius: 25%;
+}
+
+.salic-papir-img {
+  margin-top: 25px;
+  width: min(75%, 720px);
+  border-radius: 25%;
+}
+
+.salici-input-file {
+  display: inline-block;
+  width: 180px;
+}
+
+.logo-img {
+  position: absolute;
+  width: 35px;
+  top:20px;
+  left:25px;
+}
