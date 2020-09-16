@@ -9,10 +9,9 @@ body {
 @media screen and (min-width: 1440px){
   body {
     font-size: 20px;
-    margin: 25px;
+    margin: 20px;
   }
 }
-
 hr {
   border: 0;
   border-top: dotted 7px;
@@ -38,6 +37,7 @@ input[type=submit] {
   margin: 10px;
   padding: 2px;
   border-radius: 10%;
+  font-size: 1em;
 }
 
 input[type=file] {
@@ -47,6 +47,8 @@ input[type=file] {
   margin: 10px;
   padding: 2px;
   border-radius: 10%;
+  font-size: 1em;
+  width: auto;
 }
 
 .nav-btn {
@@ -54,6 +56,7 @@ input[type=file] {
   padding: 4px;
   border-radius: 25%;
   margin: 0px 5px;
+  font-size: 1em;
 }
 
 .salic-ruka-img {
