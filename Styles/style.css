@@ -1,9 +1,16 @@
 body {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   background-color: #f5eee6;
-  margin: 20px;
+  margin: 10px;
   text-align: center
+}
+
+@media screen and (min-width: 1080px){
+  body {
+    font-size: 20px;
+    margin: 25px;
+  }
 }
 
 hr {
@@ -21,10 +28,25 @@ hr {
 
 input[type=text] {
   background-color: #ffeee6;
+  font-size: 1.2em;
 }
 
 input[type=submit] {
+  background-color: #f3d7ca;
+  border-radius: 10%;
+  border-width: 1px;
   margin: 10px;
+  padding: 2px;
+  border-radius: 10%;
+}
+
+input[type=file] {
+  background-color: #ffeee6;
+  border-radius: 10%;
+  border-width: 1px;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 10%;
 }
 
 .nav-btn {
@@ -53,7 +75,12 @@ input[type=submit] {
 
 .logo-img {
   position: absolute;
-  width: 35px;
-  top:20px;
-  left:25px;
+  width: 2em;
+  top: 0.5em;
+  left: 1em;
+}
+
+.salic-view {
+  width: 100%;
+  margin-top: 25px;
 }
